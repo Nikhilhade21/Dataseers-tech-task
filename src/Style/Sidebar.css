@@ -1,0 +1,25 @@
+.sidebar {
+    display: flex;
+    width: 30vh;
+    height: 70vh; 
+    background-color: #272509;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 1vh;  
+  }
+  .sidebar-button {
+    display: flex;
+    width: 80%;
+    margin-bottom: 15%;
+    padding: 15px;
+    background-color: #fcd256;
+    color: #272509;
+    border-radius: 1vh;
+    cursor: pointer;
+    font-size: 15px;
+    justify-content: center;
+  }
+  .sidebar-button:hover {
+    background-color: #777;
+  }
