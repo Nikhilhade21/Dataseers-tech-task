@@ -28,10 +28,10 @@ function App() {
   }
 
   function handleDelete(taskId) {
-  const updatedList = tasks.filter((task) => task.id !== taskId)
-  setTasks(updatedList)
-  handleHalf(1)
-}
+    const updatedList = tasks.filter((task) => task.id !== taskId)
+    setTasks(updatedList)
+    handleHalf(1)
+  }
 
   let content;
 
