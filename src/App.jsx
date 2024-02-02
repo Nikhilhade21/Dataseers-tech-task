@@ -42,6 +42,26 @@ function App() {
   }else if (button === 3){
    content =  (<TaskItem tasks={value} deleteItem={handleDelete}/>)
   }
+
+  const handleDragEnd = (result) => {
+    if (!result.destination) {
+      return; // Item was dropped outside of a droppable area
+    }
+
+    const updatedItems = [...items];
+    const draggedItem = updatedItems[result.source.index];
+
+    // Move the item to the new category
+    draggedItem.category = getCategory(result.destination.droppableId);
+
+    // Remove the item from the source position
+    updatedItems.splice(result.source.index, 1);
+
+    // Insert the item at the destination position
+    updatedItems.splice(result.destination.index, 0, draggedItem);
+
+    setItems(updatedItems);
+  };
      
 
   return (

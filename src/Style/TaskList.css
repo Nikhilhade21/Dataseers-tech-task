@@ -55,5 +55,10 @@
     background-color: rgb(136, 158, 177);
 }
 .con-3{
-    background-color: rgb(74, 83, 90);
+    background-color: rgb(93, 135, 167);
 }
+
+.className:hover {
+    background-color: #da3731;
+  }
+  

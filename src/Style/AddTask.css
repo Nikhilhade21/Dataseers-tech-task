@@ -54,9 +54,11 @@
   }
   .errorCss{
     margin: 0%;
-    padding: 0%;
+    width: 50%;
+    height: 7%;
+    padding-left: 3%;
     font-size: 15px;
     color: #272509;
     border: 2px solid #272509;
-    background-color: rgb(41, 130, 122);
+    /* background-color: rgb(41, 130, 122); */
    }

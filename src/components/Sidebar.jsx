@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Style/Sidebar.css'
-import {AddTask} from './index.js'
+
 
 const Sidebar = ({button}) => {
 
