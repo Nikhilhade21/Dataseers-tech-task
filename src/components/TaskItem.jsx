@@ -2,7 +2,6 @@ import React from 'react'
 import '../Style/TaskItem.css';
 
 const TaskItem = ({tasks, deleteItem}) => {
-  // console.log(tasks)
   return (
     <div className='item-container' >
       <div className='head-cont'>
