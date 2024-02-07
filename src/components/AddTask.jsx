@@ -12,7 +12,6 @@ const AddTask = ({onSave, exit}) => {
     const enteredDesc = description.current.value
     const enteredDate = date.current.value
     
-
     if(enteredDesc.trim() === '' || enteredDate.trim() === '' ||
       enteredTitle.trim() === ''
     ){
